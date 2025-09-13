@@ -1,0 +1,24 @@
+{
+  "name": "webmap-graphic",
+  "version": "0.0.0",
+  "description": "Library for webmaps to create graphics and transform to standards (e.g. GeoJSON)",
+  "main": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shiro3228/webmap-graphic.git"
+  },
+  "keywords": [
+    "webmap",
+    "map",
+    "graphics"
+  ],
+  "author": "@shiro3228",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shiro3228/webmap-graphic/issues"
+  },
+  "homepage": "https://github.com/Shiro3228/webmap-graphic#readme"
+}
