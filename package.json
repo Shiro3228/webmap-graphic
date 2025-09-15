@@ -5,6 +5,7 @@
 	"author": "Kirill Grigorjev <shiro3228@yandex.ru>",
 	"license": "MIT",
 	"type": "module",
+	"main": "index.ts",
 	"homepage": "https://github.com/Shiro3228/webmap-graphic#readme",
 	"keywords": [
 		"webmap",
