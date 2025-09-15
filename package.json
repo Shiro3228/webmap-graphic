@@ -1,32 +1,34 @@
 {
-  "name": "webmap-graphic",
-  "version": "0.0.0",
-  "description": "Library for webmaps to create graphics and transform to standards (e.g. GeoJSON)",
-  "main": "index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Shiro3228/webmap-graphic.git"
-  },
-  "keywords": [
-    "webmap",
-    "map",
-    "graphics"
-  ],
-  "author": "@shiro3228",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Shiro3228/webmap-graphic/issues"
-  },
-  "homepage": "https://github.com/Shiro3228/webmap-graphic#readme",
-  "devDependencies": {
-    "@eslint/js": "^9.35.0",
-    "eslint": "^9.35.0",
-    "eslint-config-prettier": "^10.1.8",
-    "prettier": "3.6.2",
-    "typescript": "^5.9.2",
-    "typescript-eslint": "^8.43.0"
-  }
+	"name": "webmap-graphic",
+	"version": "0.0.0",
+	"description": "Library for webmaps to create graphics and transform to standards (e.g. GeoJSON)",
+	"author": "Kirill Grigorjev <shiro3228@yandex.ru>",
+	"license": "MIT",
+	"type": "module",
+	"homepage": "https://github.com/Shiro3228/webmap-graphic#readme",
+	"keywords": [
+		"webmap",
+		"map",
+		"graphic",
+		"tactical graphic",
+		"milgraphic"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Shiro3228/webmap-graphic.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Shiro3228/webmap-graphic/issues"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.35.0",
+		"eslint": "^9.35.0",
+		"eslint-config-prettier": "^10.1.8",
+		"prettier": "3.6.2",
+		"typescript": "^5.9.2",
+		"typescript-eslint": "^8.43.0"
+	}
 }
