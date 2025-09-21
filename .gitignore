@@ -416,3 +416,30 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# LaTeX compilation artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+
+# Output files
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo

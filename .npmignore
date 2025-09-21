@@ -1,0 +1,5 @@
+# Exclude thesis files
+thesis/
+*.tex
+*.bib
+*.pdf
