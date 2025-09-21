@@ -439,7 +439,9 @@ Thumbs.db
 *~
 
 # Editor files
-.vscode/
 .idea/
 *.swp
 *.swo
+
+# Thesis (LaTeX) build file
+thesis/build/
