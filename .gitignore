@@ -444,4 +444,4 @@ Thumbs.db
 *.swo
 
 # Thesis (LaTeX) build file
-thesis/build/
+thesis/**/build/
