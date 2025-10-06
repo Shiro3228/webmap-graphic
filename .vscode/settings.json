@@ -3,5 +3,29 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"latex-workshop.latex.outDir": "%DIR%/build",
 	"latex-workshop.latex.autoBuild.run": "onSave",
-	"latex-workshop.latex.autoClean.run": "never"
+	"latex-workshop.latex.autoClean.run": "never",
+	"latex-workshop.latex.tools": [
+		{
+			"name": "generate-diagrams",
+			"command": "npm",
+			"args": ["run", "create-diagrams"]
+		},
+		{
+			"name": "lualatex",
+			"command": "lualatex",
+			"args": [
+				"-interaction=nonstopmode",
+				"-output-directory=./build",
+				"-synctex=1",
+				"%DOC%"
+			]
+		}
+	],
+
+	"latex-workshop.latex.recipes": [
+		{
+			"name": "lualatex with diagrams",
+			"tools": ["generate-diagrams", "lualatex", "lualatex"]
+		}
+	]
 }

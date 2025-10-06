@@ -445,3 +445,5 @@ Thumbs.db
 
 # Thesis (LaTeX) build file
 thesis/**/build/
+thesis/figures/**/*.svg
+*plantuml*.jar

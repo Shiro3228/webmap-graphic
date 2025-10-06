@@ -15,7 +15,8 @@
 		"milgraphic"
 	],
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"create-diagrams": "java -jar './thesis/plantuml-mit-1.2025.7.jar' -recursive -tsvg '**/*.puml'"
 	},
 	"repository": {
 		"type": "git",
